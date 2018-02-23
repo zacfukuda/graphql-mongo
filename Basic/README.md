@@ -38,10 +38,10 @@ The `yarn seed` will generate data of two books to the `books` collection of the
 
 - query: Retrieves data from database.
 - query2: Does same as `query`.
-- add: Adds new data to database.
-- add2: Does same as `add`.
-- remove: Remove particular data(one document) that matches arguments from database.
-- remove2: Does same as `remove`.
+- mutate: Adds new data to database.
+- mutate2: Does same as `mutate`.
+- mutateRemove: Remove particular data(one document) that matches arguments from database.
+- mutateRemove2: Does same as `mutateRemove`.
 
 ```bash
 $ yarn SCRIPT

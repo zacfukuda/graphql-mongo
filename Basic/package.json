@@ -17,10 +17,10 @@
     "delete": "node delete.js",
     "query": "node method1/query.js",
     "query2": "node method2/query.js",
-    "add": "node method1/mutation.js",
-    "add2": "node method2/mutation.js",
-    "remove": "node method1/mutationRemove.js",
-    "remove2": "node method2/mutationRemove.js"
+    "mutate": "node method1/mutation.js",
+    "mutate2": "node method2/mutation.js",
+    "mutateRemove": "node method1/mutationRemove.js",
+    "mutateRemove2": "node method2/mutationRemove.js"
   },
   "dependencies": {
     "graphql": "^0.12.3",
