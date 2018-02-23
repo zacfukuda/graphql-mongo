@@ -1,24 +1,19 @@
 # Introduction to GraogQL + MongoDB: Basic
 
-The basic codes to work with [GraogQL](http://graphql.org/) and [MongoDB](https://www.mongodb.com/) in terminal.<br>
-No other dependencies are being used than `graghql`, `mongodb`, or  `mongoose` in the method 2 that is explained below.
+The basic code to work with [GraogQL](http://graphql.org/) and [MongoDB](https://www.mongodb.com/) in terminal. The  `graghql`, `mongodb`, or  `mongoose` in the method 2, are the only dependencies that are being used.
 
-This code is for understanding the basic concept of how to work with GraphQL and MongoDB.
+## Two ways to use [GraphQL.js](http://graphql.org/graphql-js/)
 
-## Two ways to use `[GraphQL.js](http://graphql.org/graphql-js/)`
-
-1. `[GraphQLObjectType](http://graphql.org/graphql-js/type/#graphqlobjecttype)`
+### 1. [GraphQLObjectType](http://graphql.org/graphql-js/type/#graphqlobjecttype)
 
 The method 1 is to use `GraphQLObjectType`, which is the original way to create GrapQL API, requires more work than the method 2. This method is good only when you want to understand the concept of GraphQL.
 
-2. `[buildSchema](http://graphql.org/graphql-js/utilities/#buildschema)`
+### 2. [buildSchema](http://graphql.org/graphql-js/utilities/#buildschema)
 
-The method 2 is `buildSchema`, which creates a GraphQLSchema object from GraphQL schema language. As you will see, the method 2 is easier than the method 1 and more preferable—if you do not want to use other extra GraphQL packages.
+The method 2 is `buildSchema`, which creates a GraphQLSchema object from GraphQL schema language. As you will see, the method 2 is easier than the method 1 and more preferable—if you do not want to use other extra GraphQL-related packages.
 This methods uses Mongoose to establish a connection to database.
 
 ## Get started
-
-Seeding:
 
 ```bash
 # In another terminal window

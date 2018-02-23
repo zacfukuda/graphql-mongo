@@ -1,9 +1,11 @@
 # Introduction to GraogQL + MongoDB
 
+Sample applications that implement GraphQL to communicate with MongoDB.
+
 ## Directories
-- **Basic**<br>Test programs that retrieve/add/remove data from/to MongoDB with GraphQL, working from terminal.
-- **Express**<br>GraphQL API server. Being prepared.
-- **React**<br>Simple front-end application that  retrieves/adds/removes data with GraphQL. Being prepared.
+- `./Basic`<br>Test programs that retrieve/add/remove data from/to MongoDB with GraphQL, working from terminal.
+- `./Express`<br>GraphQL API server. Being prepared.
+- `./React`<br>Simple front-end application that  retrieves/adds/removes data with GraphQL. Being prepared.
 
 ## Requirements
 
