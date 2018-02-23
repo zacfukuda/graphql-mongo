@@ -1,12 +1,6 @@
 const { MongoClient } = require('mongodb')
 const assert = require('assert')
-
-// Connection URL
-const url = 'mongodb://localhost:27017'
-
-// Database Name
-const dbName = 'graphql2'
-const collectionName = 'books'
+const { dbURL, dbName, collectionName } = require('../config')
 
 let books = [
 	{
@@ -20,7 +14,7 @@ let books = [
 ]
 
 // Connect to the server
-MongoClient.connect(url, function(err, client) {
+MongoClient.connect(dbURL, function(err, client) {
 	assert.equal(null, err)
 	console.log('Connected successfully to server')
 

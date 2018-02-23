@@ -32,6 +32,8 @@ $ yarn seed
 $ node seed.js
 ```
 
+The `yarn seed` will generate data of two books to the `books` collection of the `graghql` database. Please be careful not to reuse your exisiting collection or database. The names of collection and database are set in `config.js`.
+
 ## Scripts
 
 - query: Retrieves data from database.
