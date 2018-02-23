@@ -1,0 +1,30 @@
+{
+  "name": "graphql-mongo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Zac Fukuda",
+  "license": "MIT",
+  "private": false,
+  "url": [
+    "https://github.com/graphql/graphql-js",
+    "https://www.compose.com/articles/using-graphql-with-mongodb/",
+    "https://medium.com/the-ideal-system/graphql-and-mongodb-a-quick-example-34643e637e49",
+    "https://medium.com/@gethylgeorge/setting-up-a-simple-graphql-server-with-node-express-and-mongoose-ff8a1071af53",
+    "https://www.sitepoint.com/creating-graphql-server-nodejs-mongodb/"
+  ],
+  "scripts": {
+    "seed": "node seed.js",
+    "delete": "node delete.js",
+    "query": "node method1/query.js",
+    "query2": "node method2/query.js",
+    "add": "node method1/mutation.js",
+    "add2": "node method2/mutation.js",
+    "remove": "node method1/mutationRemove.js",
+    "remove2": "node method2/mutationRemove.js"
+  },
+  "dependencies": {
+    "graphql": "^0.12.3",
+    "mongodb": "^3.0.1",
+    "mongoose": "^5.0.3"
+  }
+}
