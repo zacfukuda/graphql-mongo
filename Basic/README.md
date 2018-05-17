@@ -1,6 +1,6 @@
-# Introduction to GraogQL + MongoDB: Basic
+# Introduction to GraphQL + MongoDB: Basic
 
-The basic code to work with [GraogQL](http://graphql.org/) and [MongoDB](https://www.mongodb.com/) in terminal. The  `graghql`, `mongodb`, or  `mongoose` in the method 2, are the only dependencies that are being used.
+Basic code to try [GraphQL](http://graphql.org/) with [MongoDB](https://www.mongodb.com/) in terminal. The  `graghql`, `mongodb`, or  `mongoose` in the method 2, are the only dependencies that are being used.
 
 ## Two ways to use [GraphQL.js](http://graphql.org/graphql-js/)
 
@@ -36,11 +36,11 @@ The `yarn seed` will generate data of two books to the `books` collection of the
 
 ## Scripts
 
-- query: Retrieves data from database.
-- query2: Does same as `query`.
-- mutate: Adds new data to database.
-- mutate2: Does same as `mutate`.
-- mutateRemove: Remove particular data(one document) that matches arguments from database.
+- `yarn query`: Retrieves data from database.
+- `yarn query2`: Does same as `query` script.
+- `yarn mutate`: Adds new data to database.
+- `yarn mutate2`: Does same as `mutate`.
+- `yarn mutateRemove`: Remove particular data(one document) that matches arguments from database.
 - mutateRemove2: Does same as `mutateRemove`.
 
 ```bash
