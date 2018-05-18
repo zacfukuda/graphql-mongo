@@ -1,6 +1,6 @@
 const { MongoClient } = require('mongodb')
 const assert = require('assert')
-const { dbURL, dbName, collectionName } = require('../config')
+const { dbURL, dbName, collectionName } = require('./config')
 
 let books = [
 	{
