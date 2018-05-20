@@ -1,3 +1,4 @@
+const path = require('path')
 const {
 	GraphQLObjectType,
 	GraphQLNonNull,
@@ -5,7 +6,7 @@ const {
 } = require('graphql')
 const assert = require('assert')
 const BookType = require('./BookType')
-const { collectionName } = require('../../config')
+const { collectionName } = require(path.join(process.cwd(), 'config'))
 
 module.exports = new GraphQLObjectType({
 	name: 'Mutation',

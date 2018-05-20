@@ -1,6 +1,7 @@
+const path = require('path')
 const mongoose = require('mongoose')
 const { graphql } = require('graphql')
-const { dbURL, dbName } = require('../config')
+const { dbURL, dbName } = require(path.join(process.cwd(), 'config'))
 
 // GraphQL Schema
 const schema = require('./schema')

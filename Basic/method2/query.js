@@ -1,6 +1,7 @@
+const path = require('path')
 const mongoose = require('mongoose')
 const { graphql } = require('graphql')
-const { dbURL, dbName } = require('../config')
+const { dbURL, dbName } = require(path.join(process.cwd(), 'config'))
 
 // GraphQL Schema
 const schema = require('./schema')
@@ -12,7 +13,7 @@ const resolvers = require('./resolvers')
 mongoose.connect(dbURL + '/' + dbName)
 
 // Querying
-var query = '{ books{title} }'
+var query = '{ books { title, author } }'
 graphql(schema, query, resolvers).then( (response) => {
 	// Simple log
 	// console.log(response)

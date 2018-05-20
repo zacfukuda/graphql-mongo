@@ -1,9 +1,10 @@
+const path = require('path')
 const {
   GraphQLObjectType,
   GraphQLList,
 } = require('graphql')
 const BookType = require('./BookType')
-const { collectionName } = require('../../config')
+const { dbURL, dbName, collectionName } = require(path.join(process.cwd(), 'config'))
 
 module.exports = new GraphQLObjectType({
 	name: 'Query',

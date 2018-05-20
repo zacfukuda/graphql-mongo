@@ -1,7 +1,8 @@
+const path = require('path')
 const { MongoClient } = require('mongodb')
 const { graphql } = require('graphql')
 const assert = require('assert')
-const { dbURL, dbName, collectionName } = require('../config')
+const { dbURL, dbName, collectionName } = require(path.join(process.cwd(), 'config'))
 
 // GraphQL Schema
 const schema = require('./schema.js')
