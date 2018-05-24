@@ -1,6 +1,10 @@
 # Introduction to GraphQL + MongoDB: Basic
 
-Basic code to try [GraphQL](http://graphql.org/) with [MongoDB](https://www.mongodb.com/) in terminal. The  `graghql`, `mongodb`, or  `mongoose` in the method 2, are the only dependencies that are being used.
+Basic code to try [GraphQL](http://graphql.org/) with [MongoDB](https://www.mongodb.com/) from Terminal. The  `graghql`, `mongodb`, and `mongoose` in the method 2, are the only dependencies being used.
+
+The tutorial is available at…
+— [GraphQL + MongoDB: Basic – Query](https://www.mokuji.me/article/graphql-mongo-basic1)
+- [GraphQL + MongoDB: Basic – Mutation](https://www.mokuji.me/article/graphql-mongo-basic2)
 
 ## Two ways to use [GraphQL.js](http://graphql.org/graphql-js/)
 
@@ -10,8 +14,8 @@ The method 1 is to use `GraphQLObjectType`, which is the original way to create 
 
 ### 2. [buildSchema](http://graphql.org/graphql-js/utilities/#buildschema)
 
-The method 2 is `buildSchema`, which creates a GraphQLSchema object from GraphQL schema language. As you will see, the method 2 is easier than the method 1 and more preferable—if you do not want to use other extra GraphQL-related packages.
-This methods uses Mongoose to establish a connection to database.
+The method 2 is to use `buildSchema`, which creates a GraphQLSchema object from GraphQL schema language. As you will see, the method 2 is easier than the method 1 and more preferable—if you do not want to use other extra GraphQL-related packages.
+In method 2, Mongoose is being used to establish a connection with database.
 
 ## Get started
 
@@ -21,7 +25,7 @@ This methods uses Mongoose to establish a connection to database.
 $ mongod
 
 # Change your working directory
-$ cd /PATH/TO/Basic
+$ cd /PATH/TO/graphql-mongo/Basic
 
 # Install packages
 $ yarn
