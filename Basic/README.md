@@ -4,8 +4,8 @@ Basic code to try [GraphQL](http://graphql.org/) with [MongoDB](https://www.mong
 
 The tutorial is available at…
 
-- [GraphQL + MongoDB Tutorials: Basic – Query](https://www.mokuji.me/article/graphql-mongo-basic1)
-- [GraphQL + MongoDB Tutorials: Basic – Mutation](https://www.mokuji.me/article/graphql-mongo-basic2)
+- [GraphQL + MongoDB Tutorial: Basic – Query](https://www.mokuji.me/article/graphql-mongo-basic1)
+- [GraphQL + MongoDB Tutorial: Basic – Mutation](https://www.mokuji.me/article/graphql-mongo-basic2)
 
 ## Two ways to use [GraphQL.js](http://graphql.org/graphql-js/)
 
