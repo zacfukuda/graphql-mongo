@@ -3,7 +3,7 @@
 Sample application to run [GraphQL](http://graphql.org/) API server with [Express.js](https://expressjs.com/) to communicate with [MongoDB](https://www.mongodb.com/). [Mongoose](mongoosejs.com/) is being used to make a connection to database.
 
 ## Before getting started
-This application is Express version of sample program [Introduction to GraphQL + MongoDB: Basic](https://github.com/zacfukuda/graphql-mongo/tree/master/Basic), which is located in the different directory of this repository. (The tutorial of *Basic* program is also available at [GraphQL + MongoDB Tutorials: Basic – Query](https://www.mokuji.me/article/graphql-mongo-basic1) and [GraphQL + MongoDB Tutorials: Basic – Mutation](https://www.mokuji.me/article/graphql-mongo-basic2))
+This application is Express version of sample program [Introduction to GraphQL + MongoDB: Basic](https://github.com/zacfukuda/graphql-mongo/tree/master/Basic), which is located in the different directory of this repository. (The tutorial of *Basic* program is also available at [GraphQL + MongoDB Tutorial: Basic – Query](https://www.mokuji.me/article/graphql-mongo-basic1) and [GraphQL + MongoDB Tutorial: Basic – Mutation](https://www.mokuji.me/article/graphql-mongo-basic2))
 
 You can easily run this application, but following *Basic* benefits readers in regard to understand the basic concept of GraphQL–MongoDB relation.
 
