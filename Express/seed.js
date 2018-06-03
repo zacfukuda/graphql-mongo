@@ -1,7 +1,6 @@
-const path = require('path')
 const { MongoClient } = require('mongodb')
 const assert = require('assert')
-const { dbURL, dbName, collectionName } = require(path.join(process.cwd(), 'config'))
+const { dbURL, dbName, collectionName } = require('config')
 
 let books = [
 	{

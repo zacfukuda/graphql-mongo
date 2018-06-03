@@ -3,8 +3,9 @@
 Basic code to try [GraphQL](http://graphql.org/) with [MongoDB](https://www.mongodb.com/) from Terminal. The  `graghql`, `mongodb`, and `mongoose` in the method 2, are the only dependencies being used.
 
 The tutorial is available at…
-— [GraphQL + MongoDB: Basic – Query](https://www.mokuji.me/article/graphql-mongo-basic1)
-- [GraphQL + MongoDB: Basic – Mutation](https://www.mokuji.me/article/graphql-mongo-basic2)
+
+- [GraphQL + MongoDB Tutorials: Basic – Query](https://www.mokuji.me/article/graphql-mongo-basic1)
+- [GraphQL + MongoDB Tutorials: Basic – Mutation](https://www.mokuji.me/article/graphql-mongo-basic2)
 
 ## Two ways to use [GraphQL.js](http://graphql.org/graphql-js/)
 

@@ -9,7 +9,7 @@ Sample applications that implement GraphQL to communicate with MongoDB.
 
 ## Requirements
 
-Inside () are the versions at which the developer tested the codes.
+Inside brackets() are the versions at which the developer tested the codes.
 
 - Node.js/NPM (8.9.4/5.6.0)
 - MongoDB (3.4.4)
