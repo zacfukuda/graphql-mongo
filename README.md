@@ -1,4 +1,4 @@
-# Introduction to GraogQL + MongoDB
+# Introduction to GraphQL + MongoDB
 
 Sample applications that implement GraphQL to communicate with MongoDB.
 
