@@ -2,6 +2,8 @@
 
 Sample application to run [GraphQL](http://graphql.org/) API server with [Express.js](https://expressjs.com/) to communicate with [MongoDB](https://www.mongodb.com/). [Mongoose](mongoosejs.com/) is being used to make a connection to database.
 
+The tutorial is available at [GraphQL + MongoDB Tutorial: Express](https://www.mokuji.me/article/graphql-mongo-express)
+
 ## Before getting started
 This application is Express version of sample program [Introduction to GraphQL + MongoDB: Basic](https://github.com/zacfukuda/graphql-mongo/tree/master/Basic), which is located in the different directory of this repository. (The tutorial of *Basic* program is also available at [GraphQL + MongoDB Tutorial: Basic – Query](https://www.mokuji.me/article/graphql-mongo-basic1) and [GraphQL + MongoDB Tutorial: Basic – Mutation](https://www.mokuji.me/article/graphql-mongo-basic2))
 
@@ -29,7 +31,7 @@ $ node seed.js
 
 > By default, the application use database named `graphql`. Since it is a common name, if you already have the database in the same name, please modify `dbName` written in `./config.js` file.
 
-Run express server with `yarn start`. (This script uses [Nodemon]https://github.com/remy/nodemon to monitor file changes.)
+Run Express server with `yarn start`. (This script uses [Nodemon]https://github.com/remy/nodemon to monitor file changes.)
 
 ```bash
 $ yarn start

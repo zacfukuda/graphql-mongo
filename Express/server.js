@@ -2,7 +2,7 @@ const express = require('express')
 const graphqlHTTP = require('express-graphql')
 const mongoose = require('mongoose')
 
-// Import Graphql components
+// Import GraphQL components
 const schema = require('./schema')
 const resolvers = require('./resolvers')
 
