@@ -41,7 +41,7 @@ class AddForm extends Component {
 			<form onSubmit={this.handleSubmit}>
 				<label>Title</label>: <input type="text" name="title" value={this.state.title} onChange={this.handleChange} /><br />
 				<label>Author</label>: <input type="text" name="author" value={this.state.author} onChange={this.handleChange} /><br />
-				<input type="submit" value="Submit" />
+				<input type="submit" value="Add" />
 			</form>
 		);
 	}

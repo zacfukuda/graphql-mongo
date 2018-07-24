@@ -10,7 +10,7 @@ This application is Express version of sample program [Introduction to GraphQL +
 The tutorial of *Basic* program is also available at…
 
 - [GraphQL + MongoDB: Basic – Query](https://www.mokuji.me/article/graphql-mongo-basic1)
-- [GraphQL + MongoDB: Basic – Mutation](https://www.mokuji.me/article/graphql-mongo-basic2))
+- [GraphQL + MongoDB: Basic – Mutation](https://www.mokuji.me/article/graphql-mongo-basic2)
 
 You can easily run this application, but following *Basic* benefits readers in regard to understand the basic concept of GraphQL–MongoDB relation.
 
