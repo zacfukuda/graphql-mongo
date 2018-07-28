@@ -23,9 +23,7 @@ class AddForm extends Component {
 		e.preventDefault();
 
 		// Working with form with React: https://reactjs.org/docs/forms.html
-		if ( !this.state.title || !this.state.author) {
-			return;
-		}
+		if ( !this.state.title || !this.state.author) return;
 
 		const data = {
 			title: this.state.title,

@@ -2,6 +2,8 @@
 
 Sample React.js & [GraphQL](http://graphql.org/) application that communicates with [MongoDB](https://www.mongodb.com/). [Express.js](https://expressjs.com/) and [Mongoose](mongoosejs.com/) are being used to make the app more practical.
 
+The tutorial is available at [GraphQL + MongoDB Tutorial: React](https://www.mokuji.me/article/graphql-mongo-react)
+
 ## Before getting started
 This application is built upon the GraphQL & MongoDB application which you can find in [the other folder of same repository](https://github.com/zacfukuda/graphql-mongo/tree/master/Express).
 

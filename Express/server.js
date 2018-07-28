@@ -8,7 +8,7 @@ const resolvers = require('./resolvers')
 
 // Import configuration and connect to DB
 const { dbURL, dbName } = require('./config')
-mongoose.connect(dbURL + '/' + dbName)
+mongoose.connect(dbURL + '/' + dbName, { useNewUrlParser: true })
 
 // Define "context" just for testing
 const context = {
